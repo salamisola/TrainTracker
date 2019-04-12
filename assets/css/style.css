@@ -1,0 +1,14 @@
+ #train-table th,
+    td {
+      display: inline-block;
+      width: 16.575%;
+    }
+	
+	.alert{
+		text-align: center;
+		padding: 10px;
+		background-color: blue;
+		color: #ffffff;
+		margin-bottom: 10px;
+		display: none;
+	}
