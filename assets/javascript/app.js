@@ -74,19 +74,17 @@ firebase.initializeApp(config);
 		
 		
 		//show alert
-		document.querySelector('.alert').style.display = 'block';
+		/* document.querySelector('.alert').style.display = 'block';
 		
 		//hide alert after 3 seconds
 		setTimeout(function(){
 			document.querySelector('.alert').style.display = 'none';
-		}, 3000);
+		}, 3000); */
 		
 		//clear form after submission
-		/* document.getElementById('trainScheduleForm').reset();	 */	
-		$("#trainName").val("");
-		$("#destination").val("");
-		$("#firstTrainTime").val("");
-		$("#frequency").val("");
+	   document.getElementById('trainScheduleForm').reset();
+		
+		
 	});
 
 	//function to get form values
